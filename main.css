@@ -1,0 +1,47 @@
+body{
+	margin:  0;
+	min-width: 500px;
+	height: 100%;
+	background-color: black;
+}
+h2{
+	margin: inherit;
+}
+.header{
+	text-align: center;
+	background-color: darkcyan;
+	color: whitesmoke;
+	margin: 0;
+
+}
+.nav{
+	background-color: whitesmoke;
+	text-align: center;
+}
+.nav button{
+	background:  none;
+	color: darkcyan;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	padding: 10px; 
+}
+.nav button:hover{
+	background:  darkcyan;
+	color: whitesmoke;
+	
+
+}
+.game{
+	margin: 0 auto;
+	max-width: 600px;
+}
+.square{
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 20px;
+}
+
